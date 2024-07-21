@@ -1,0 +1,190 @@
+@media screen and (max-width:1400px) {
+  #projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .projects-container {
+    width: 80%;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width:1250px) {
+  #navbar {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: flex;
+  }
+
+  #skills .full-stack {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .toggle-button {
+    display: inline-block;
+  }
+
+  #profile .media {
+    margin-bottom: 2rem;
+  }
+
+  .section-container .greeting {
+    font-size: 1.5rem;
+  }
+
+  .section-container .my-name {
+    font-size: 1.8rem;
+    display: block;
+  }
+
+  .section-container .developer {
+    font-size: 1.4rem;
+  }
+
+  #projects .projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+
+}
+
+@media screen and (max-width:800px) {
+
+  /* #profile,
+  .section-container {
+    display: block;
+  } */
+
+  .section-container .pics img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .section-container .text .greeting {
+    font-size: 1.5rem;
+  }
+
+  .section-container .my-name {
+    font-size: 2rem;
+  }
+
+  .section-container .developer {
+    font-size: 1.7rem;
+  }
+
+  .section-container .section-text {
+    font-size: 0.8rem;
+  }
+
+  #skills .full-stack {
+    display: flex;
+    gap: 2rem;
+  }
+
+  #projects .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .section-container .pics img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .one-btn,
+  .two-btn {
+    font: size 0.7em;
+    padding: 0.7rem 1.2rem;
+  }
+
+  .github,
+  .linkedin {
+    font-size: 1.6rem;
+  }
+
+  #contact h1,
+  #projects h1,
+  #skills h1,
+  #about h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact-container .mail,
+  .contact-container .linked {
+    font-size: 1.3rem;
+    padding: 0.5rem, 1rem;
+  }
+
+}
+
+@media screen and (max-width:616px) {
+
+  nav {
+    margin-bottom: 3rem;
+  }
+
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  }
+
+  .pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+  }
+
+  .section-container .pics img {
+    height: 200px;
+    width: 200px;
+    display: block;
+  }
+
+  .text {
+    width: 100%;
+    margin-bottom: 7rem;
+  }
+
+  .full-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #skills,
+  #projects {
+    width: 100%;
+  }
+
+  .front-end,
+  .back-end {
+    width: 60%;
+  }
+}

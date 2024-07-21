@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+  <nav id="navbar">
+    <div class="name">Himabindu</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="mobile-nav">
+    <div class="name">Himabindu</div>
+    <div class="mobile-menu">
+      <button class="toggle-button" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <!-- profile section -->
+  <section id="profile">
+    <div class="section-container">
+      <div class="pics">
+        <img src="./pics/Screenshot (21).png" alt="Himabindu pic">
+      </div>
+      <div class="text">
+        <p class="greeting">Hello,World!</p>
+        <h1 class="my-name">I'm Himabindu</h1>
+        <p class="developer">An enthusiastic Developer</p>
+        <p class="section-text">I am a passionate and dedicated developer continuously learning and growing in the field
+          of technology.</p>
+        <div class="btn-container">
+          <button class="one-btn" onclick="window.open('./pics/resume.pdf')" ,'_blank'>Resume</button>
+          <button class="two-btn" onclick="location.href='./#contact'">Contact info</button>
+        </div>
+        <div class="media">
+          <i class="fa-brands fa-github github" onclick="location.href='https://github.com/Himabindhu2005'"></i>
+          <i class="fa-brands fa-linkedin-in linkedin"
+            onclick="location.href='https://www.linkedin.com/in/himabindhu-reddy-52564a256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"></i>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about">
+    <h1>About me</h1>
+    <p>Hello! I'm Himabindu, I am currently pursuing a B.Tech at GNI, set to graduate in 2026. My goal is to contribute
+      to impactful projects and grow as a professional in a dynamic and challenging role,where I can apply my skills,
+      learn from experienced professionals, and make meaningful contributions to the team and the organization.</p>
+  </section>
+
+  <section id="skills">
+    <h1>My skills</h1>
+    <div class="full-stack">
+      <div class="front-end">
+        <h2>Frontend development</h2>
+        <div class="tools">
+          <i class="fa-solid fa-circle-check "><span>Html5</span></i>
+          <i class="fa-solid fa-circle-check "><span>CSS</span></i>
+          <i class="fa-solid fa-circle-check "><span>Javascript</span></i>
+          <i class="fa-solid fa-circle-check "><span>Bootstrap</span></i>
+        </div>
+      </div>
+
+      <div class="back-end">
+        <h2>Backend development</h2>
+        <div class="tools">
+          <i class="fa-solid fa-circle-check "><span>Node.js</span></i>
+          <i class="fa-solid fa-circle-check "><span>Express.js</span></i>
+          <i class="fa-solid fa-circle-check "><span>MongoDb</span></i>
+          <i class="fa-solid fa-circle-check "><span>Git</span></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="projects-container">
+
+      <div class="project-info">
+        <h2>Grocery store</h2>
+        <p>An e-commerce website</p>
+        <p>Html,CSS,Javascript</p>
+        <div class="btn-container">
+          <button class="one-btn"
+            onclick="location.href='https://github.com/Himabindhu2005/grocery-store'">Github</button>
+          <button class="two-btn">Live Demo</button>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h2>Grocery store</h2>
+        <p>An e-commerce website</p>
+        <p>Html,CSS,Javascript</p>
+        <div class="btn-container">
+          <button class="one-btn"
+            onclick="location.href='https://github.com/Himabindhu2005/grocery-store'">Github</button>
+          <button class="two-btn">Live Demo</button>
+        </div>
+      </div>
+
+      <div class="project-info">
+        <h2>Grocery store</h2>
+        <p>An e-commerce website</p>
+        <p>Html,CSS,Javascript</p>
+        <div class="btn-container">
+          <button class="one-btn"
+            onclick="location.href='https://github.com/Himabindhu2005/grocery-store'">Github</button>
+          <button class="two-btn">Live Demo</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <div class="contact-container">
+      <i class="fa-solid fa-envelope mail"
+        onclick="location.href='mailto:himabindhu107@gmail.com'"><span>himabindhu107@gmail.com</span></i>
+      <i class="fa-brands fa-linkedin-in linked"
+        onclick="location.href='https://www.linkedin.com/in/himabindhu-reddy-52564a256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"><span>LinkedIn</span></i>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
